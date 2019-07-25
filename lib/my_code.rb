@@ -80,7 +80,6 @@ end
 
 def reduce_to_any_true(source_array)
   
-  while counter < source_array.length do
     source_array[counter] ? return true : return false
-  end
+  
 end
