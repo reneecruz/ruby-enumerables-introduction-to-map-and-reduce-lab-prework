@@ -79,9 +79,8 @@ end
 
 
 def reduce_to_any_true(source_array)
-  
-  if 
-    source_array = false
+  counter = 0 
+  while source_array = false do
     return false
   else 
     return true
