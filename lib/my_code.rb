@@ -87,5 +87,6 @@ def reduce_to_any_true(source_array)
     else 
       counter += 1
     end
+    return false
   end
 end
