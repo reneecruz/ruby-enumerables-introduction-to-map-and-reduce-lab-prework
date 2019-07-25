@@ -81,7 +81,7 @@ end
 def reduce_to_any_true(source_array)
   
   if 
-    source_array[counter] = false
+    source_array = false
     return false
   else 
     return true
