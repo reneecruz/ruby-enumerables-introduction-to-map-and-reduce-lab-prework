@@ -80,12 +80,11 @@ end
 
 def reduce_to_any_true(source_array)
   counter = 0 
+  
     if source_array[counter] == false
       return false
     elsif source_array[counter] == true 
       return true
     end
     
-    counter += 1
-  end
 end
